@@ -1,0 +1,7 @@
+{
+  "demo_mode": false,
+  "public_base_url": "https://calendar.example.com",
+  "google_client_id": "YOUR_GOOGLE_CLIENT_ID",
+  "google_client_secret": "YOUR_GOOGLE_CLIENT_SECRET",
+  "allowed_emails": ["person@example.com"]
+}

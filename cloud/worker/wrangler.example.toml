@@ -1,0 +1,15 @@
+# Example only. Copy to wrangler.toml and fill in your own resource ID.
+name = "equipment-calendar-api"
+main = "index.mjs"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "equipment-calendar"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+PUBLIC_ORIGIN = "https://calendar.example.com"
+ACCESS_POLICY = "restricted"
+ALLOWED_EMAILS = ""
+ALLOWED_GOOGLE_DOMAINS = ""

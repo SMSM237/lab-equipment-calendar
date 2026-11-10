@@ -1,0 +1,26 @@
+# Private settings and runtime data
+**/data/
+**/*.sqlite*
+**/*.db
+**/*.db-*
+**/config.local.json
+**/.env
+**/.env.*
+!**/.env.example
+**/.dev.vars*
+**/.wrangler/
+**/.vercel/
+**/wrangler.toml
+**/wrangler.json
+**/wrangler.jsonc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tooling
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+.DS_Store
